@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 class EventController extends Controller
 {
     /**
-     * @Route("/events", name="event_list")
+     * @Route("/event", name="event_list")
      */
     public function indexAction(Request $request)
     {
